@@ -1,0 +1,494 @@
+@font-face {
+    font-family: "Assistant";
+    src: local("Assistant"), url(/Assistant/static/Assistant-Regular.ttf);
+}
+.list{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    width: 440px;
+    justify-content: space-between;
+
+}
+header{
+    display: flex;
+    background: linear-gradient(90deg, white 50%, orange 50%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+}
+body{
+    margin: 0;
+}
+.list_item{
+    color: #000;
+    font-size: 27px;
+    font-family: Mulish;
+}
+.burger_btn{
+    background-image: url(../img/burgrer-menu.svg);
+    border: 0;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+}
+.first{
+    display: flex;
+    background: linear-gradient(90deg, white 50%, orange 50%);
+    justify-content: space-between;
+    padding: 105px 100px;
+}
+.head_content_title{
+    color: #2F4425;
+    font-size: 70px;
+    font-family: Assistant;
+    font-weight: 700;
+    margin: 0;
+}
+.head_content_paragraph{
+    color: #FE8A00;
+    font-size: 50px;
+    font-family: Assistant;
+    text-transform: uppercase;
+    margin: 0;
+}
+.content_paragraph{
+    color: #000;
+    font-size: 36px;
+    font-family: Assistant;
+    margin-top: 48px;
+    margin-bottom: 29px;
+    width: 508px;
+}
+.price{
+    display: flex;
+    margin-bottom: 54px;
+}
+.price_title{
+    color: #000;
+    font-size: 40px;
+    font-family: Assistant;
+    margin: 0;
+}
+.price_sum{
+    color: #000;
+    font-size: 40px;
+    font-family: Assistant;
+    margin: 0;
+}
+.price_content{
+    display: flex;
+    width: 181px;
+    justify-content: space-between;
+}
+.buy_btn{
+    width: 295px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #CE7205;
+    border: 0;
+    color: #FFF;
+    font-size: 40px;
+    font-family: Assistant;
+    cursor: pointer;
+}
+.head_content{
+    width: 559px
+}
+.first_image{
+    object-fit: cover;
+    width: 448px;
+    height: 650px;
+
+}
+.second_title{
+    color: #FE8A00;
+    font-size: 50px;
+    font-family: Assistant;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
+.card_image{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+.card_image1{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 120px auto 0;
+}
+.card{
+    width: 860px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FE8A00;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.card1{
+    width: 860px;
+    height: 565.600px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FE8A00;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.card_title{
+    margin: 0;
+    color: #DBDBDB;
+    font-size: 50px;
+    font-family: Assistant;
+    text-transform: uppercase;
+    text-align: center;
+}
+.third{
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.place_img{
+    width: 750px;
+}
+.fourth_con{
+    display: flex;
+}
+.fourth_item{
+    color: #141B2B;
+    font-size: 16px;
+    font-family: Assistant;
+    font-weight: 500;
+}
+.fourth_item1{
+    color: #141B2B;
+    font-size: 20px;
+    font-family: Assistant;
+    font-weight: 700;
+}
+.fourth_con > img{
+    margin-right: 8px;
+}
+.title{
+    display: flex;
+
+}
+.fourth_title{
+    margin-right: 50px;
+    color: #141B2B;
+    font-size: 25px;
+    font-family: Assistant;
+    font-weight: 700;
+}
+.content{
+    padding: 44px 0 44px 62px;
+}
+.svyaz{
+    background: white;
+    border-radius: 20px;
+
+}
+.text{
+    text-align: center;
+    width: 450px;
+}
+.title2{
+    color: #141B2B;
+    font-size: 35px;
+    font-family: Assistant;
+    font-weight: 700;
+    margin: 0;
+}
+.paragraph{
+    color: #141B2B;
+    font-size: 16px;
+    font-family: Assistant;
+    width: 380px;
+    margin: 0 auto;
+}
+.input_title{
+    color: #141B2B;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.ifr{
+    width: 750px;
+    height: 691px;
+}
+.cc{
+    padding: 30px;
+}
+.order{
+    display: flex;
+    padding: 15px 20px 15px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: #CE7205;
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Assistant;
+    font-weight: 500;
+    width: 100%;
+}
+input{
+    width: 450px;
+    display: flex;
+    padding: 15px 20px 15px 25px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 50px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin-bottom: 20px;
+}
+.duo{
+    display: flex;
+    margin-top: 60px;
+}
+.accordion{
+    width: 100%;
+}
+.fourth{
+    background: orange;
+}
+.burger_list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.burger_item{
+    color: #141B2B;
+    font-size: 25px;
+    font-family: Assistant;
+    text-align: center;
+}
+.burger_menu{
+    position: absolute;
+    z-index: 2;
+    display: none;
+    width: 200px;
+    background: linear-gradient(90deg, orange 50%, white 50%);
+    left: 814px;
+    top: 358px;
+}
+.IsActive{
+    display: block;
+}
+
+.new_i {
+    margin-right: 8px;
+}
+
+footer{
+    background: orange;
+    margin-top: 21px;
+}
+.dd{
+    display: flex;
+    width: 1144px;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 67px 184px;
+}
+.conim_con{
+    list-style: none;
+    padding: 0;
+}
+.con_item{
+    display: flex;
+}
+.new_t{
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 16px;
+    font-family: Assistant;
+    font-weight: 600;
+}
+.images{
+    display: flex;
+    list-style: none;
+    width: 92px;
+    justify-content: space-between;
+    padding: 0;
+}
+.nav_t{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: Assistant;
+    font-weight: 500;
+    line-height: 285.9%;
+}
+.nav{
+    list-style: none;
+    padding: 0;
+    height: 198px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sv{
+    border-radius: 50px;
+    border: 1px solid #000;
+    background: transparent;
+    align-items: center;
+    display: flex;
+}
+.qq{
+    border-bottom: 1px solid #000;
+}
+.t{
+    color: #000;
+    font-size: 18px;
+    font-family: Assistant;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 12px;
+}
+body.dark_theme{
+    background-color: #000;
+}
+.theme{
+    width: 295px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgb(252, 252, 3) 50%, rgb(205, 198, 198) 50%);
+    border: 0;
+    color: #FFF;
+    font-size: 40px;
+    font-family: Assistant;
+    cursor: pointer;
+}
+.switch{
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+    position: relative;
+}
+.switch .switch_lab::after{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+    transition: transform 0.3s;
+}
+.switch .switch_lab{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 35px;
+    background: black;
+}
+.switch_inp {
+    display: none;
+}
+.switch .switch_inp:checked + .switch_lab{
+    background-color: red;
+}
+.switch .switch_inp:checked + .switch_lab::after{
+    transform: translateX(25px);
+}
+body.dark_theme header{
+    background: linear-gradient(90deg, white 60%, black 40%);
+}
+body.dark_theme .burger_btn{
+    background-image: url(../img/burgrer-menu\ \(1\).svg);
+    background-color: black;
+}
+body.dark_theme .switch .switch_lab::after{
+    background: black;
+}
+body.dark_theme .switch_lab{
+    background: white;
+}
+body.dark_theme .first{
+    background: linear-gradient(90deg, white 60%, black 40%);
+}
+body.dark_theme .buy_btn{
+    background: black;
+}
+body.dark_theme .switch .switch_inp:checked + .switch_lab{
+    background-color: white;
+}
+body.dark_theme .first{
+    padding: 105px 65px 105px 85px;
+}
+body.dark_theme .second_title{
+    color: white;
+}
+body.dark_theme .card1{
+    background: white;
+}
+body.dark_theme .card_title{
+    color: black;
+}
+body.dark_theme .third{
+    background: black;
+}
+body.dark_theme .fourth_title{
+    color: white;
+}
+body.dark_theme .fourth_item{
+    color: white;
+}
+body.dark_theme .fourth_item1{
+    color: white;
+}
+body.dark_theme .order{
+    background: black;
+}
+body.dark_theme .fourth{
+    background: black;
+}
+body.dark_theme .accordion__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    background-color: white;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out;
+}
+body.dark_theme .accordion__body{
+    padding: 0.75rem 1rem;
+    overflow: hidden;
+    background: black;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    color: white;
+}
+body.dark_theme footer{
+    background: white;
+}

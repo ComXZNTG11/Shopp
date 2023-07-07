@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourProtein</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\itc-slider.css">
+    <link rel="stylesheet" href="css\acordion.css">
+</head>
+<body>
+        <header>
+        <img src="img\\logo.svg" alt="" class="logo">
+        <nav>
+            <ul class="list">
+                <li class="list_item">
+                    Протеин
+                </li>
+                <li class="list_item">
+                    Гейнеры
+                </li>
+                <li class="list_item">
+                    Другое
+                </li>
+            </ul> 
+        </nav>
+        <!-- <button class="theme">Смена темы</button> -->
+        <div class="switch">
+            <input type="checkbox" id="toggle" class="switch_inp">
+            <label for="toggle" class="switch_lab"></label>
+        </div>
+        <button class="burger_btn" id="btn-menu">
+            <!-- <img src="img\burgrer-menu.svg" alt="" class="burger_img"> -->
+        </button>
+        <div class="burger_menu" id="menu">
+            <ul class="burger_list">
+                <li class="burger_item">Акции</li>
+                <li class="burger_item">Реклама</li>
+                <li class="burger_item">Сотруднечиство</li>
+                <li class="burger_item">Корзина</li>
+                <li class="burger_item">Вход</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+    <section class="first">
+        <div class="content">
+            <div class="head_content">
+                <h1 class="head_content_title">Протеин</h1>
+                <h1 class="head_content_paragraph">FORTRESS WHEY PROTEIN</h1>
+            </div>
+            <h1 class="content_paragraph">Вкусно и качественно, большой выбор вкусов!</h1>
+            <div class="price">
+                <div class="price_content">
+                    <h1 class="price_title">Цена: </h1>
+                    <h1 class="price_sum">500</h1>
+                </div>
+                <img src="img\DollarOutlined.svg" alt="" class="price_img">
+            </div>
+            <button class="buy_btn" id="btn" onclick="buy()">В корзину</button>
+        </div>
+        <img src="img\prot.png" alt="" class="first_image">
+    </section>
+    <section class="second">
+        <h1 class="second_title">Наши товары</h1>
+        <div class="itc-slider" data-slider="itc-slider">
+            <div class="itc-slider-wrapper">
+              <div class="itc-slider-items">
+                <div class="itc-slider-item">
+                  <div class="card1">
+                    <img src="img\Fc.png" alt="" class="card_image1">
+                    <h1 class="card_title">Creatine 1250 Mega caps</h1>
+                  </div>
+                </div>
+                <div class="itc-slider-item">
+                    <div class="card">
+                        <img src="img\Fc2.png" alt="" class="card_image">
+                        <h1 class="card_title">Mutant chocolate protein</h1>
+                    </div>
+                </div>
+                <div class="itc-slider-item">
+                    <div class="card">
+                        <img src="img\Fc3.png" alt="" class="card_image">
+                        <h1 class="card_title">Allin Creatine</h1>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+            <button class="itc-slider-btn itc-slider-btn-prev"></button>
+            <button class="itc-slider-btn itc-slider-btn-next"></button>
+          </div>
+    </section>
+    <section class="third">
+        <div class="place_img">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af1c740064c2e1dfe9f5ec1c1718840bcfd0ed0e62f98e93e57c633edead30905&amp;source=constructor" class="ifr" frameborder="0"></iframe>
+        </div>
+        <div class="content">
+            <div class="contacts">
+                <div class="title">
+                    <h1 class="fourth_title">Контакты</h1>
+                    <img src="img\Line 42.svg" alt="">
+                </div>
+                <div class="fourth_content">
+                    <div class="fourth_con">
+                        <img src="img\place.svg" alt="">
+                        <h1 class="fourth_item">Ленинградская ул., с24Г, Химки</h1>
+                    </div>
+                    <div class="fourth_con">
+                        <img src="img\clock.svg" alt="">
+                        <h1 class="fourth_item">Круглосуточно</h1>
+                    </div>
+                    <div class="fourth_con">
+                        <img src="img\phone.svg" alt="">
+                        <h1 class="fourth_item1">8 (495) 248-14-80, 8 (800) 444-19-43 </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="svyaz">
+                <div class="cc">
+                    <div class="text">
+                        <h1 class="title2">Остались вопросы?</h1>
+                        <p class="paragraph">Оставьте свой номер и мы свяжемся с вами в ближайшее время!</p>
+                    </div>
+                    <div class="input">
+                        <h1 class="input_title">Имя</h1>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <h1 class="input_title">Телефон</h1>
+                        <input type="text">
+                    </div>
+                    <button class="order">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fourth">
+        <div class="duo">
+            <div class="accordion" id="accordion-1">
+            <div class="accordion__item accordion__item_show">
+              <div class="accordion__header">
+                Creatine 1250 Mega caps
+              </div>
+              <div class="accordion__body">
+                Креатин с добавкой кофеина и теорина, бодрит и веселит!
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__header">
+                Mutant chocolate protein
+              </div>
+              <div class="accordion__body">
+                Это не обычный протеин, это протеин для мутантов которые хотят иметь тело олимпийского бога!
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="accordion-2">
+            <div class="accordion__item accordion__item_show">
+              <div class="accordion__header">
+                Allin Creatine
+              </div>
+              <div class="accordion__body">
+                Креатин от популярной компании Allin, вкусный и полезный!
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__header">
+                Omega-3
+              </div>
+              <div class="accordion__body">
+              Omega-3 Это не-что инное как рыбий жир, все знают о его полезностях поэтому много болтать не будем!
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="dd">
+            <div class="conim">
+                <img src="img\\logo.svg" alt="" class="logo">
+                <ul class="conim_con">
+                    <li class="con_item">
+                        <img src="img\ph_map-pin-fill (1).svg" alt="" class="new_i">
+                        <h1 class="new_t">Ленинградская ул., с24Г, Химки</h1>
+                    </li>
+                    <li class="con_item">
+                        <img src="img\Vector.svg" alt="" class="new_i">
+                        <h1 class="new_t">Круглосуточно</h1>
+                    </li>
+                    <li class="con_item">
+                        <img src="img\eva_phone-fill (1).svg" alt="" class="new_i">
+                        <h1 class="new_t">8 (495) 248-14-80 <br> 8 (800) 444-19-43 </h1>
+                    </li>
+                </ul>
+                <ul class="images">
+                    <li class="image">
+                        <img src="img\entypo-social_vk-with-circle.svg" alt="" class="ig">
+                    </li>
+                    <li class="image">
+                        <img src="img\mdi_odnoklassniki.svg" alt="" class="ig">
+                    </li>
+                    <li class="image">
+                        <img src="img\ant-design_youtube-outlined.svg" alt="" class="ig">
+                    </li>
+                </ul>
+            </div>
+            <ul class="nav">
+                <li class="nav_item">
+                    <a href="" class="nav_t">Товар дня</a>
+                </li>
+                <li class="nav_item">
+                    <a href="" class="nav_t">Популярные товары</a>
+                </li>
+                <li class="nav_item">
+                    <a href="" class="nav_t">Контакты</a>
+                </li>
+                <li class="nav_item">
+                    <a href="" class="nav_t">Об авторе</a>
+                </li>
+            </ul>
+            <div class="qq">
+                <button class="sv">
+                    <img src="img\eva_phone-fill (1).svg" alt="" class="a">
+                    <h1 class="t">Обратная связь</h1>
+                </button>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts\main.js"></script>
+    <script src="scripts\itc-slider.js"></script>
+    <script src="scripts\acordion.js"></script>
+    <script src="scripts\theme.js"></script>
+</body>
+</html>
